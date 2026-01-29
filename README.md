@@ -23,13 +23,13 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/SatyamDev803/satyam-portfolio.git](https://github.com/SatyamDev803/satyam-portfolio.git)
+git clone [https://github.com/ankityadav1asia/MyPortfolio.git](https://github.com/ankityadav1asia/MyPortfolio.git)
 
 # Navigate into the project directory
-cd satyam-portfolio
+cd MyPortfolio
 
-# Install dependencies (using pnpm as per your lockfile)
-pnpm install
+# Install dependencies 
+npm install
 
 # Run the development server
-pnpm dev
+npm dev
