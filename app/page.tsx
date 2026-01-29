@@ -105,7 +105,7 @@ export default function Home() {
                   Languages
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {["Python", "JavaScript", "TypeScript", "Java", "SQL"].map(
+                  {["Python", "TypeScript", "JavaScript",  "SQL"].map(
                     (skill) => (
                       <span
                         key={skill}
@@ -122,13 +122,10 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "TensorFlow",
-                    "Keras",
                     "spaCy",
                     "LangChain",
-                    "Ray",
                     "Celery",
-                    "scikit-learn",
-                    "XGBoost",
+                    "scikit-learn"
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -147,7 +144,6 @@ export default function Home() {
                     "PostgreSQL",
                     "Redis",
                     "MongoDB",
-                    "Django",
                     "Flask",
                     "SQLAlchemy",
                   ].map((skill) => (
@@ -196,84 +192,7 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Section 2: Experience */}
-        <section
-          id="work"
-          ref={(el) => {
-            sectionsRef.current[1] = el;
-          }}
-          className="py-20 sm:py-32 opacity-0"
-        >
-          <div className="space-y-12 sm:space-y-16">
-            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
-              <h2 className="text-3xl sm:text-4xl font-light">Experience</h2>
-            </div>
-            <div className="space-y-8 sm:space-y-12">
-              {[
-                {
-                  year: "Dec 24 - May 25",
-                  role: "Software Engineer Intern - Backend & ML",
-                  company: "Kredit (Startup)",
-                  description: [
-                    "Engineered scalable backend services with automated ETL workflows, increasing data processing throughput by 50% across 4 heterogeneous data sources (Gov APIs, CIBIL, internal datasets).",
-                    "Improved ML scoring performance from 30% to 70%+ R² through data-driven insights and advanced feature engineering (polynomial transforms, clustering, imputation).",
-                    "Developed alternative creditworthiness scoring using behavioral signals, enabling risk evaluation for thin-file borrowers with 85%+ prediction accuracy.",
-                    "Deployed production-grade inference APIs using FastAPI and WebSockets, supporting low-latency real-time scoring integrations with external services.",
-                  ],
-                  tech: [
-                    "FastAPI",
-                    "Python",
-                    "PostgreSQL",
-                    "TensorFlow",
-                    "WebSockets",
-                    "scikit-learn",
-                    "Pandas",
-                  ],
-                },
-              ].map((job, index) => (
-                <div
-                  key={index}
-                  className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500"
-                >
-                  <div className="lg:col-span-2">
-                    <div className="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500">
-                      {job.year}
-                    </div>
-                  </div>
-                  <div className="lg:col-span-6 space-y-3">
-                    <div>
-                      <h3 className="text-lg sm:text-xl font-medium">
-                        {job.role}
-                      </h3>
-                      <div className="text-muted-foreground">{job.company}</div>
-                    </div>
-                    <div className="space-y-2">
-                      {job.description.map((line, i) => (
-                        <p
-                          key={i}
-                          className="text-muted-foreground leading-relaxed max-w-lg"
-                        >
-                          {line}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
-                    {job.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-2 py-1 text-xs text-muted-foreground rounded"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
+        
         {/* Section 3: Education */}
         <section
           id="education"
@@ -289,10 +208,17 @@ export default function Home() {
             <div className="space-y-8 sm:space-y-12">
               {[
                 {
-                  degree: "Bachelor of Science in Computer Science",
-                  gpa: "GPA: 3.57 / 4.00",
+                  degree: "Masters of Science in Computer Science",
                   college: "University of Mumbai",
-                  duration: "Jun 2021 – May 2024",
+                  duration: "Jun 2025 – May 2027",
+                  location: "Mumbai, India",
+                  coursework: "Advanced Database Systems.AI&Robotics,Machine Learning",
+                },
+                {
+                  degree: "Bachelor of Science in Computer Science",
+                  gpa: "CGPA: 8.41 / 10.00",
+                  college: "University of Mumbai",
+                  duration: "Jun 2022 – May 2025",
                   location: "Mumbai, India",
                   coursework: "Data Structures & Algorithms, Artificial Intelligence, Operating Systems, Computer Networks, Database Systems, Software Engineering, Cloud Computing, Data Science",
                 },
