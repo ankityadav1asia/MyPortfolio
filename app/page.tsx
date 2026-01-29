@@ -521,7 +521,7 @@ export default function Home() {
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
                     <span className="text-base sm:text-lg">
-                      sharmasatyam1603@gmail.com
+                      ankityadav1asia@gmail.com
                     </span>
                     <svg
                       className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
