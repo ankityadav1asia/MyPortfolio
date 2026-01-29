@@ -548,23 +548,23 @@ export default function Home() {
                 {[
                   {
                     name: "GitHub",
-                    handle: "@SatyamDev803",
-                    url: "https://github.com/SatyamDev803",
+                    handle: "@ankityadav1asia",
+                    url: "https://github.com/ankityadav1asia",
                   },
                   {
                     name: "LinkedIn",
-                    handle: "Satyam Sharma",
-                    url: "https://www.linkedin.com/in/satyam-sharma-6296781b2/",
+                    handle: "Ankit Yadav",
+                    url: "https://www.linkedin.com/in/ankityadav11/",
                   },
                   {
                     name: "X (Twitter)",
-                    handle: "@Satyam_S1603",
-                    url: "https://x.com/Satyam_S1603",
+                    handle: "@ankiteatt",
+                    url: "https://x.com/ankiteatt",
                   },
                   {
                     name: "WhatsApp",
-                    handle: "+91 99679 37003",
-                    url: "https://wa.me/qr/EIWX2YEPRLNTK1",
+                    handle: "+91 9621466683",
+                    url: "https://wa.me/qr/ADY2UHG3UQO4E1",
                   },
                 ].map((social) => (
                   <a
@@ -593,7 +593,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">
-                © 2025 Satyam Sharma. All rights reserved.
+                © 2026 Ankit Yadav. All rights reserved.
               </div>
               <div className="text-xs text-muted-foreground">
                 Built with Next.js, TypeScript & Tailwind CSS
