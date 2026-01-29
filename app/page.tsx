@@ -77,16 +77,16 @@ export default function Home() {
             <div className="lg:col-span-3 space-y-6 sm:space-y-8">
               <div className="space-y-3 sm:space-y-2">
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight">
-                  Satyam
+                  Ankit 
                   <br />
-                  <span className="text-muted-foreground">Sharma</span>
+                  <span className="text-muted-foreground">Yadav</span>
                 </h1>
               </div>
               <div className="space-y-6 max-w-md">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  ML & Backend Engineer building
+                  AI & Backend Engineer building
                   <span className="text-foreground"> intelligent systems</span> through
-                  <span className="text-foreground"> AI/ML</span>,
+                  <span className="text-foreground"> ML(Machine learning)</span>,
                   <span className="text-foreground"> scalable architectures</span>, and
                   <span className="text-foreground"> data-driven solutions</span>.
                 </p>
@@ -95,7 +95,7 @@ export default function Home() {
                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                     Available for opportunities
                   </div>
-                  <div>Mumbai, India</div>
+                  <div>Mumbai, India (Remote)</div>
                 </div>
               </div>
             </div>
@@ -177,7 +177,6 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "Docker",
                     "AWS",
                     "GitHub Actions",
                     "CI/CD",
