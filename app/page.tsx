@@ -265,26 +265,6 @@ export default function Home() {
             <div className="grid gap-8 sm:gap-10">
               {[
                 {
-                  title: "TalentAI — AI Recruitment Platform",
-                  description: [
-                    "Architected distributed microservices platform using FastAPI with Ray actors enabling 10k+ parallel candidate-job match evaluations per minute with high availability.",
-                    "Implemented transformer-based embeddings with NLP pipelines achieving 90%+ skill-job match accuracy and efficient resume data extraction.",
-                    "Integrated LLM APIs via LangChain for contextual match explanations, reducing recruiter review effort by 75%.",
-                    "Scaled asynchronous resume parsing using Celery and Redis, maintaining sub-200ms API latency under load.",
-                  ],
-                  tech: [
-                    "FastAPI",
-                    "PostgreSQL",
-                    "Ray",
-                    "spaCy",
-                    "LangChain",
-                    "Celery",
-                    "Redis",
-                  ],
-                  liveUrl: null,
-                  githubUrl: "https://github.com/SatyamDev803/TalentAI",
-                },
-                {
                   title: "CogniCart — AI E-Commerce Analytics Platform",
                   description: [
                     "Developed full-stack analytics dashboard with indexed relational queries and optimised CRUD APIs enabling real-time insights.",
