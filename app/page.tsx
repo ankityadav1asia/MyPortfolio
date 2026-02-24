@@ -300,7 +300,7 @@ export default function Home() {
                     "Vector Embeddings",
                   ],
                   liveUrl: null,
-                  githubUrl: "https://github.com/SatyamDev803/cognicart",
+                  githubUrl: "https://github.com/ankityadav1asia/cognicart",
                 },
                 {
                   title: "CryptexAI — Cryptocurrency Forecasting Platform",
@@ -318,25 +318,7 @@ export default function Home() {
                     "Optuna",
                   ],
                   liveUrl: null,
-                  githubUrl: "https://github.com/SatyamDev803/CryptexAI",
-                },
-                {
-                  title: "AvaxPay — Decentralized Payment Link Platform",
-                  description: [
-                    "Built a decentralized payment platform on Avalanche blockchain enabling users to create shareable payment links and QR codes for instant crypto payments.",
-                    "Integrated Wagmi v2 and RainbowKit for seamless wallet connections supporting MetaMask, Core, and WalletConnect.",
-                    "Features real-time QR code generation, smart contract integration, multi-token support (AVAX, USDC, USDT), and comprehensive payment dashboard with analytics tracking.",
-                  ],
-                  tech: [
-                    "Next.js",
-                    "TypeScript",
-                    "Wagmi",
-                    "RainbowKit",
-                    "Avalanche",
-                    "Smart Contracts",
-                  ],
-                  liveUrl: "https://avax-pay.vercel.app/",
-                  githubUrl: "https://github.com/SatyamDev803/AvaxPay",
+                  githubUrl: "https://github.com/ankityadav1asia/cryptexai",
                 },
               ].map((project, index) => (
                 <article
