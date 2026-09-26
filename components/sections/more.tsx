@@ -152,9 +152,8 @@ export function Contact() {
 export function Footer() {
   return (
     <footer className="border-t border-border">
-      <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-10 font-mono text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-8">
-        <span>© {new Date().getFullYear()} {profile.name}</span>
-        <span>Next.js · TypeScript · Tailwind CSS · Vercel</span>
+      <div className="mx-auto max-w-6xl px-5 py-10 font-mono text-xs text-muted-foreground sm:px-8">
+        © {new Date().getFullYear()} {profile.name}
       </div>
     </footer>
   )
