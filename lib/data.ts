@@ -11,7 +11,7 @@ export const socials = [
   { name: "GitHub", handle: "@ankityadav1asia", url: "https://github.com/ankityadav1asia" },
   { name: "LinkedIn", handle: "Ankit Yadav", url: "https://www.linkedin.com/in/ankityadav11/" },
   { name: "X (Twitter)", handle: "@ankiteatt", url: "https://x.com/ankiteatt" },
-  { name: "WhatsApp", handle: "+91 9621466683", url: "https://wa.me/qr/ADY2UHG3UQO4E1" },
+  { name: "WhatsApp", handle: "+91 9096887892", url: "https://wa.me/919096887892" },
 ]
 
 export const corpus = {
